@@ -12,3 +12,5 @@ August 13, 2024
 - ViT.ipynb is a similar notebook for reproducing my transformer based results and contains the outputs from previous runs.
 - ViT_Simple.ipynb is the same as ViT.ipynb but contains a slightly different model definition (with reduced complexity) and also adds image augmentation to the preprocessing.
 - plots.ipynb contains the code used to generate the figures in my final report.
+
+Please note: I ran this code on my macbook and thus was able to use the "mps" device for optimization in the notebooks. Please change this to "cuda" if you plan to run the code on a different OS/arch.
